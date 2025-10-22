@@ -1,13 +1,13 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f5f5f5;
+  background-color:#2C2F33;
   display: flex;
   justify-content: center;
   padding: 50px;
 }
 
 .todo-container {
-  background: linear-gradient(135deg, #89f7fe, #66a6ff);
+  background:#0B1D51;
   padding: 25px;
   border-radius: 15px;
   width: 400px;
