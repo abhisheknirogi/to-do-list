@@ -18,6 +18,7 @@ taskInput.addEventListener('keydown', (e) => {
   if (e.key === 'Enter') addTask();
 });
 
+// Function to add a new task
 function addTask() {
   const taskText = taskInput.value.trim();
   if (taskText) {

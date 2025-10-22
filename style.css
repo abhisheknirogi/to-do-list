@@ -1,83 +1,77 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-    display: flex;
-    justify-content: center;
-    padding: 50px;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
 }
 
 .todo-container {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    width: 350px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  background: linear-gradient(135deg, #89f7fe, #66a6ff);
+  padding: 25px;
+  border-radius: 15px;
+  width: 400px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.input-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
 }
 
 input[type="text"] {
-    width: 70%;
-    padding: 10px;
-    margin-right: 5px;
+  width: 70%;
+  padding: 12px;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
 button {
-    padding: 10px 15px;
-    cursor: pointer;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-li {
-    display: flex;
-    justify-content: space-between;
-    padding: 8px 0;
-    border-bottom: 1px solid #eee;
-}
-
-li.completed {
-    text-decoration: line-through;
-    color: gray;
-}
-
-.filters {
-    margin-top: 10px;
-}
-
-.filters button {
-    margin-right: 5px;
-}
-.todo-container {
-    background: linear-gradient(135deg, #89f7fe, #66a6ff);
-    padding: 25px;
-    border-radius: 15px;
-    width: 400px;
-    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
-}
-
-input[type="text"] {
-    width: 70%;
-    padding: 12px;
-    border-radius: 25px;
-    border: none;
-    outline: none;
-    margin-right: 10px;
-    box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
-}
-
-button {
-    padding: 12px 20px;
-    border-radius: 25px;
-    border: none;
-    cursor: pointer;
-    background-color: #fff;
-    transition: all 0.3s ease;
+  padding: 12px 15px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  background-color: #fff;
+  transition: all 0.3s ease;
 }
 
 button:hover {
-    background-color: #f0f0f0;
-    transform: scale(1.05);
+  background-color: #f0f0f0;
+  transform: scale(1.05);
 }
 
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.task-text.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.task-time {
+  font-size: 12px;
+  color: #444;
+  margin-right: 10px;
+}
+
+.filters {
+  margin-top: 10px;
+}
+
+.filters button {
+  margin-right: 5px;
+}
