@@ -65,5 +65,5 @@ You can modify and distribute it for learning or personal projects.
 
  Author
 Abhishek Nirogi
-📧 Email: [abhishek27127@gmail.com]
-🌐 GitHub: abhisheknirogi
+ Email: [abhishek27127@gmail.com]
+ GitHub: abhisheknirogi

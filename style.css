@@ -1,13 +1,13 @@
 body {
   font-family: Arial, sans-serif;
-  background-color:#2C2F33;
+  background-color:#4ECDC4;
   display: flex;
   justify-content: center;
   padding: 50px;
 }
 
 .todo-container {
-  background:#0B1D51;
+  background:#FF6B6B;
   padding: 25px;
   border-radius: 15px;
   width: 400px;
@@ -34,12 +34,12 @@ button {
   border-radius: 25px;
   border: none;
   cursor: pointer;
-  background-color: #fff;
+  background-color: #FFE66D;
   transition: all 0.3s ease;
 }
 
 button:hover {
-  background-color: #f0f0f0;
+  background-color: #FFE66D;
   transform: scale(1.05);
 }
 
@@ -54,12 +54,12 @@ li {
   justify-content: space-between;
   align-items: center;
   padding: 8px 0;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #FFE66D;
 }
 
 .task-text.completed {
   text-decoration: line-through;
-  color: gray;
+  color: #1A535C;
 }
 
 .task-time {
